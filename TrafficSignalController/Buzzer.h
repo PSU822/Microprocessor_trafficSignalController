@@ -1,6 +1,4 @@
-//#define BUZZER_PIN        추후 키트 선 매핑이 끝나고 다시 알릴것 
-
-
+#define BUZZER_PIN 47        
 
 // 부저 초기화
 void buzzerInit();

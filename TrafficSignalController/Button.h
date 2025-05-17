@@ -1,11 +1,8 @@
-/*
+#define WEST_BUTTON_PIN 54   // 서쪽 방향 버튼 pb 1
+#define SOUTH_BUTTON_PIN 55  // 남쪽 방향 버튼 pb 2
+#define EAST_BUTTON_PIN  56  // 동쪽 방향 버튼 pb 3
+#define NORTH_BUTTON_PIN 57 // 북쪽 방향 버튼 pb 4
 
-#define WEST_BUTTON_PIN     // 서쪽 방향 버튼
-#define SOUTH_BUTTON_PIN   // 남쪽 방향 버튼
-#define EAST_BUTTON_PIN    // 동쪽 방향 버튼
-#define NORTH_BUTTON_PIN   // 북쪽 방향 버튼
-
-*/
 
 // 메인 코드에서 참조될 변수들
 
