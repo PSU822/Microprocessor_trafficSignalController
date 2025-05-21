@@ -2,15 +2,14 @@
 #define SEG7_H
 
 // 7-세그먼트 핀 정의
-static const byte seg7_sel[6] = {8, 9 , 10, 11, 12, 13}; // 선택 핀
-static const byte seg7_dp[8] = {0, 1, 2, 3, 4, 5, 6, 7}; // 데이터 핀
+static const byte seg7_sel[6] = {A5, A4, A3, A2, A1, A0}; // 선택 핀
+static const byte seg7_dp[8] = {A8, A9, A10, A11, A12, A13, A14, A15}; // 데이터 핀
 
 // 0~9, A~F 패턴
-static const byte seg7_data[16] = {
+static const byte seg7_data[10] = {
     0x3F, 0x06, 0x5B, 0x4F, // 0, 1, 2, 3
     0x66, 0x6D, 0x7D, 0x07, // 4, 5, 6, 7
-    0x7F, 0x67, 0x77, 0x7C, // 8, 9, A, B
-    0x39, 0x5E, 0x79, 0x71  // C, D, E, F
+    0x7F, 0x67 // 8, 9
 };
 
 // 세븐 세그먼트 초기화. HIGH: 꺼짐, LOW: 켜짐
